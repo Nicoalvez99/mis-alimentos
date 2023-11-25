@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0b1121;
+}
+h1, h3 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    color: aliceblue;
+}
+h5, p, li {
+    color: aliceblue;
+}
+.linear {
+    background: rgb(6,2,65);
+    background: linear-gradient(90deg, rgba(6,2,65,1) 0%, rgba(9,9,121,1) 35%, rgba(13,32,87,1) 100%);
+    border-radius: 10px;
+}

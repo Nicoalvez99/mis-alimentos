@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <div class="row" data-aos="fade-up">
+            <div class="col-12 my-3 text-center">
+                <lord-icon src="https://cdn.lordicon.com/gxwpnrco.json" trigger="loop"
+                    colors="primary:#ffffff,secondary:#08a88a" style="width:100px;height:100px">
+                </lord-icon>
+                <h1>Mis Alimentos</h1>
+            </div>
+            <div class="col-12 text-center my-2">
+                <h3>Armado de plato en Desayuno/Merienda + Infusión : mate/te/café/mate cocido</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="row" data-aos="fade-right">
+            <div class="col-12 p-0">
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <th>Proteinas</th>
+                            <th>Frutas/vegetales</th>
+                            <th>Carbohidratos</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2 cdas sopera de ricota magra Pan - pref. integral (1 u) 1 yogur descremado x 200 ml
+                                </td>
+                                <td>1 fruta mediana o frutas pequeñas: frutillas/arandanos<br>/cerezas/frambuesas: 1
+                                    taza</td>
+                                <td>Pan - pref. integral (1 u) 1 yogur descremado x 200 ml Avena instantanea (3
+                                    cucharadas)</td>
+                            </tr>
+                            <tr>
+                                <td>1 feta de queso o 1 rebanada de 2 dedos apróx de ancho de queso por salut desc. 1
+                                    huevo o 2 claras 1 vaso de leche descremada 30 gr de pechuga de pollo/atún</td>
+                                <td>Cualquier verdura, 1/4 palta</td>
+                                <td>Granola sin azúcar (2 cucharadas) Harinas - pref. integrales (3 cucharadas) Galletas
+                                    de arroz (3 u) Rapidita (1 un) Galletas íntegra/zafran (5 un)</td>
+                            </tr>
+                            <tr>
+                                <td>5 a 7 un de frutas secas* 1 porción de HC = 1 fruta 1 cdita de mantequilla de maní*
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 my-2 p-0" data-aos="fade-up">
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row px-2">
+            <div class="col-12 my-3 linear p-2 shadow" data-aos="fade-right">
+                <h5>Alcaraciónes</h5>
+                <p>Se contempla 1 cda de queso untable descremado o 1 cda de mermelada o 1 cda de miel o 1 cda de ddl
+                    (menos veces por semana) en desayunos y meriendas.</p>
+            </div>
+            <div class="col-12 my-3">
+                <h5>Ejemplos de desayunos/meriendas:</h5>
+                <p>Licuado de leche y frutas + 3 cdas soperas de avena instantanea + 1 tostada con huevo
+                    Tostada de pan integral con ricota magra mezclada con palta + 1 cda de semillas + 1 huevo + 1 fruta
+                    + infusión <br></p>
+                <p>Fácil de transportar: en un frasquito colocar 3 cdas de avena + 2 cdas de leche en polvo descremada.
+                    Reconstituir con agua caliente y agregarle 1 puñado de frutos secos + fruta por arriba Yogur con
+                    granola + galletas de arroz con queso untable + fruta
+                    Infusión + 2 facturas + 1 fruta (menos veces por semana) Infusión + pancake (1 huevo + 3 cdas de
+                    harina integral + esencia de vainilla + 1 cdita de polvo de hornerar) . Servir con miel, frutass por
+                    arriba y frutos secos.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="text-center" data-aos="fade-up">
+                    <h3>Armado del plato almuerzo</h3>
+                </div>
+                <div class="table-responsive" data-aos="fade-up">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <th>Proteinas</th>
+                            <th>Frutas/vegetales</th>
+                            <th>Carbohidratos</th>
+                        </thead>
+                        <thead>
+                            <th>En crudo(180 gr)</th>
+                            <th>Incorporar vegetales va a dar volumen y saciedad a
+                                tus comidas. Rotar y/o combinar entre crudo y/o</th>
+                            <th>En cocido</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Huevos (2 u + 1 clara) + 1 rodaja de queso
+                                    port salut desc. Carne de vaca: colita de cuadril, nalga, peceto, cuadrada, bola de
+                                    lomo, bife angosto</td>
+                                <td>Acelga, achicoria, ají, apio, berenjena,
+                                    berro, brócoli, cardo, coliflor, escarola, espinaca,
+                                    espárrago, endivia, hinojo, hongos, lechuga,
+                                </td>
+                                <td>
+                                    Quinoa, trigo sarraceno (3/4 taza)
+                                    Arroz integral (3/4 taza)
+                                    Trigo burgol (3/4 taza)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Pescados: atun, merluza, brotola, abadejo, bacalao, mero, camaron Cerdo: solomillo,
+                                    carre Pollo: pechuga de pollo
+                                </td>
+                                <td>
+                                    nabiza, pepino, rabanito, rábano, radicha, radicheta
+                                    repollo, repollitos de Bruselas, tomate, zapallitos.
+                                </td>
+                                <td>
+                                    Fideos integrales (1 taza)
+                                    Papa (2 un chica)
+                                    Batata (2 un chica) Choclo en grano (1/2 taza) ó 1/2 u Masa de tarta (2 porciones)
+                                    Rapiditas (2 un) Lentejas (3 cdas)
+                                    Garbanzos (3 cdas)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Lentejas/ porotos/ garbanzos</td>
+                                <td>Alcaucil, arvejas frescas, cebolla, cebolla de verdeo,
+                                    brotes de soja, chauchas, habas, nabo, palmitos
+                                    puerro, remolacha, zanahoria, zapallo.
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 my-2 p-0" data-aos="fade-up">
+                <div>
+                    <canvas id="myChart2"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-12-my-5">
+                <p>BEBIDAS: AGUA. <br>
+                    CONDIMENTOS :
+                    1 cucharada de aceite preferentemente oliva y en crudo. Otras opciones: maiz, girasol ó 10 aceitunas
+                    ó 1 cda de semillas o 1 cda de mix de frutos secos
+                    Uso libre de: aceto, vinagre, jugo de limon, salsa de soja, condimentos.
+                    Con moderacion: queso untable, sal de mesa, motaza, ketchup, salsa barbacoa, aceto en reduccion</p>
+            </div>
+            <div class="col-12">
+                <h5>Aclaraciones</h5>
+                <p>Más recomendaciónes:</p>
+                <ul>
+                    <li>Incorporar cereales INTEGRALES ( arroz integral, quínoa, mijo, fideos integrales)</li>
+                    <li> Incorporar vegetales crudos y/o cocidos en ambas comidas principales.</li>
+                    <li>Consumir preferentemente 2lts de AGUA por día.</li>
+                    <li>- Comer despacio, ser consciente de las elecciones y disfrutar del momento. No estar pendiente
+                        al celular, tv, trabajo. Deberían ser unos minutos de desconexión. </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Proteínas', 'Frutas/vegetales', 'Carbohidratos'],
+                datasets: [{
+                    label: 'Porciónes',
+                    data: [25, 25, 25],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        const ctx2 = document.getElementById('myChart2');
+
+        new Chart(ctx2, {
+            type: 'pie',
+            data: {
+                labels: ['Proteínas', 'Vegetales', 'Hidratos'],
+                datasets: [{
+                    label: 'Porciónes',
+                    data: [25, 25, 25],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
